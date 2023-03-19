@@ -17,7 +17,7 @@ const Home = () => {
             high-quality audio and extract scripts, all in a sleek and modern
             interface.
           </p>
-          <button className="btn btn-primary normal-case">Lets try it out</button>
+          <button className="btn btn-primary text-neutral normal-case">Lets try it out</button>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import { BrowserRouter as Router } from "react-router-dom";
+import Toastifier from "./components/helpers/Toastifier";
 import Footer from "./components/layout/Footer";
 import Header from "./components/layout/Header";
 import AppRoutes from "./routing/AppRoutes";
@@ -14,6 +15,8 @@ function App() {
         <AppRoutes />
         <Footer />
       </Router>
+      {/* toast alerts */}
+      <Toastifier />
     </div>
   );
 }
